@@ -1,6 +1,16 @@
 # Retrospectives
 
-##
+## 2025-12-01
+
+### What are my reflections today
+
+* Enums are neat
+  * These appear very powerful
+* This will definitely need some practice
+* Destructuring will also take some practice (but is also pretty powerful)
+* Y'all did a great job figuring this out
+
+## 2025-11-nn
 
 ### What did I observe
 
