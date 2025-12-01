@@ -1,5 +1,14 @@
 # Retrospectives
 
+##
+
+### What did I observe
+
+* Flow went pretty good
+  * I feel like we are getting the hang of it
+* Maybe we could take more time to read the documentation
+  * Maybe post the links into the chat
+
 ## 2025-11-19
 
 ### We changed up some stuff today. How did our experiment go?
