@@ -1,5 +1,13 @@
 # Retrospectives
 
+## 2025-12-03
+
+* Strings are pretty easy
+  * Lots of functions!
+  * Reminds us of Python & Java
+* Modules are powerful
+  * Reminiscent of C++, Python & Java
+
 ## 2025-12-01
 
 ### What are my reflections today

@@ -1,8 +1,9 @@
 # Order
 
-* David
+* Phil
 * Ethan
 * Matt
-* Phil
+
+* David
 
 ## end
