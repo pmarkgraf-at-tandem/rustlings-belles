@@ -15,6 +15,7 @@ struct TeamScores {
     goals_conceded: u8,
 }
 
+// Example: "England,France,4,2" (England scored 4 goals, France 2).
 fn build_scores_table(results: &str) -> HashMap<&str, TeamScores> {
     // The name of the team is the key and its associated struct is the value.
     let mut scores = HashMap::<&str, TeamScores>::new();
@@ -22,15 +23,36 @@ fn build_scores_table(results: &str) -> HashMap<&str, TeamScores> {
     for line in results.lines() {
         let mut split_iterator = line.split(',');
         // NOTE: We use `unwrap` because we didn't deal with error handling yet.
+        // England
         let team_1_name = split_iterator.next().unwrap();
+        // France
         let team_2_name = split_iterator.next().unwrap();
+        // 4
         let team_1_score: u8 = split_iterator.next().unwrap().parse().unwrap();
+        // 2
         let team_2_score: u8 = split_iterator.next().unwrap().parse().unwrap();
 
         // TODO: Populate the scores table with the extracted details.
         // Keep in mind that goals scored by team 1 will be the number of goals
         // conceded by team 2. Similarly, goals scored by team 2 will be the
-        // number of goals conceded by team 1.
+        // number of goals conceded by team 1
+        // let blank_scores = TeamScores{goals_scored:0, goals_conceded:0};
+        // let score_total1 = scores.entry(team_1_name).or_insert(blank_scores);
+        // score_total1.goals_scored += team_1_score;
+        // score_total1.goals_conceded += team_2_score;
+
+        // let blank_scores = TeamScores{goals_scored:0, goals_conceded:0};
+        // let score_total2 = scores.entry(team_2_name).or_insert(blank_scores);
+        // score_total2.goals_scored += team_2_score;
+        // score_total2.goals_conceded += team_1_score;
+
+        let score_total1 = scores.entry(team_1_name).or_default();
+        score_total1.goals_scored += team_1_score;
+        score_total1.goals_conceded += team_2_score;
+
+        let score_total2 = scores.entry(team_2_name).or_default();
+        score_total2.goals_scored += team_2_score;
+        score_total2.goals_conceded += team_1_score;
     }
 
     scores
