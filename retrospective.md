@@ -1,5 +1,14 @@
 # Retrospectives
 
+## 2025-12-22
+
+### What went well today?
+
+* Liked that we went slow and thought things through
+* Learned the "why" of the various options
+* Did some experimentation of other approaches
+* Want to build a project with this to exercise making the choices
+
 ## 2025-12-03
 
 * Strings are pretty easy
