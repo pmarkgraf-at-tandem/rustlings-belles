@@ -1,14 +1,14 @@
 # Order
 
 * David
-* Ryan
-* Peter
-* Jake
-* Phil
-
-* Ethan
 * Matt
+* Ethan
 * Jake
-* Abhijit
+* Ryan 
+* Peter
+* Gabe
+
+
+* Phil
 
 ## end

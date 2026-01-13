@@ -1,5 +1,20 @@
 # Retrospectives
 
+## 2026-01-13
+
+### What did I find interesting today
+
+* Error handling is pretty cool
+  * This can get pretty ugly
+  * Exception (try-catch) is a nightmare
+* ?-operator is really cool
+  * You can get rid of a ton of if/else boilerplate
+* Generics and templates (C++) are similar
+  * Don't do meta-programming with Generics
+  * Generics are type-safe (through traits)
+* Nice getting back into the learning habit
+* Rust is becoming more useful in our industry
+
 ## 2025-12-22
 
 ### What went well today?
