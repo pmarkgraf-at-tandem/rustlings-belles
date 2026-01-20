@@ -2,10 +2,8 @@
 
 * David
 * Matt
-* Ethan
-* Jake
+* Ethan (no speaking today)
 * Ryan 
-* Peter
 * Gabe
 
 
