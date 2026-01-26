@@ -1,5 +1,17 @@
 # Retrospectives
 
+## 2026-01-26
+
+### General Thoughts
+
+* Hour and a half was a little long, but works if longer reading period in the beginning
+* Breakup the session with a short intermission
+* We added our own tests to understand the fast-fail behavior of collect on Result type
+
+### What was difficult today
+
+* concept of ownership vs borrow in Options was tricky
+
 ## 2026-01-13
 
 ### What did I find interesting today
