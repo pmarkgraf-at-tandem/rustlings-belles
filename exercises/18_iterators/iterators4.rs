@@ -10,6 +10,7 @@ fn factorial(num: u64) -> u64 {
     // - additional variables
     // For an extra challenge, don't use:
     // - recursion
+    (1..=num).product()
 }
 
 fn main() {
@@ -37,5 +38,5 @@ mod tests {
     #[test]
     fn factorial_of_4() {
         assert_eq!(factorial(4), 24);
-    }
+    }    
 }

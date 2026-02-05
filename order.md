@@ -2,9 +2,8 @@
 
 * David
 * Matt
-* Ethan
 * Ryan 
-* Peter
+* Jake
 * Gabe
 
 
